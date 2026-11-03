@@ -1,1 +1,0 @@
-# PSIB2026Q2-TPI-Grupo07-Barboza-Casais-Mitchelena
