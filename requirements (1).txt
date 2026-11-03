@@ -7,8 +7,6 @@ scipy>=1.11
 # Versión fija: desde la 0.26, remove_small_objects también elimina regiones de área igual al mínimo,
 # lo que cambia la segmentación. Los resultados del repo se obtuvieron con esta versión.
 scikit-image==0.26.0
-# StratifiedGroupKFold (notebook 05)
-scikit-learn>=1.3
 matplotlib>=3.8
 Pillow>=10.0
 # Compresión con wavelets (notebook 06)
