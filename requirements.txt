@@ -1,5 +1,5 @@
 # PSIB 2026 2C - TPI Grupo 07
-# Instalar con: pip install -r requirements.txt   (Python >= 3.10)
+# Instalar con: pip install -r requirements.txt   (Python >= 3.11)
 
 numpy>=1.26
 pandas>=2.1
