@@ -12,6 +12,10 @@ Pillow>=10.0
 # Compresión con wavelets (notebook 06)
 PyWavelets>=1.5
 
+# Interfaz gráfica (python app.py)
+PySide6>=6.6
+pyqtgraph>=0.13
+
 # Para correr los notebooks
 jupyter
 ipykernel
