@@ -1,8 +1,9 @@
-"""Interfaz gráfica del TPI (PySide6 + pyqtgraph, como en el material de la cátedra).
+"""Interfaz gráfica del TPI (Repo de Fran (PyQt/PySide)).
 
 Flujo: cargar un corte -> elegir eje y compresión -> Analizar. Muestra el corte original, la máscara cerebral,
 las lesiones detectadas y el resultado de la regla del notebook 05. La lógica está en `src/analisis.py`.
 Se ejecuta con `python app.py` desde la raíz del repo.
+OBS: Las carpetas que dicen control se tratan de pacientes sanos y no se debería detectar nada.
 """
 import sys
 from pathlib import Path
