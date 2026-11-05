@@ -30,13 +30,13 @@ def medidas_corte(mask, seg):
     areas = np.bincount(lab.ravel())[1:]
     area_lesion = int(seg.sum())
     return {
-        "Area_cerebro": area_cerebro,
+        "Area_cerebro_px": area_cerebro,
         "Frac_cerebro": area_cerebro / TAM ** 2,
         "N_regiones": len(areas),
-        "Area_lesion": area_lesion,
+        "Area_lesion_px": area_lesion,
         "Area_rel": area_lesion / area_cerebro if area_cerebro else np.nan,
-        "Area_media_region": float(areas.mean()) if len(areas) else 0.0,
-        "Area_max_region": int(areas.max()) if len(areas) else 0,
+        "Area_media_region_px": float(areas.mean()) if len(areas) else 0.0,
+        "Area_max_region_px": int(areas.max()) if len(areas) else 0,
     }
 
 
