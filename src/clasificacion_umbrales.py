@@ -6,7 +6,7 @@ from scipy.stats import mannwhitneyu
 # un corte es EM si alguna de las características supera el percentil P_CONTROL de los controles de su eje.
 REGLA = [("Area_rel", ">"), ("Entropia", ">")]
 P_CONTROL = 95          # percentil de los controles: fija una tasa de falsos positivos de ~5 % por característica
-SEG = ["Area_rel", "N_regiones", "Area_max_region"]
+SEG = ["Area_rel", "N_regiones", "Area_max_region_px"]
 TEXT = ["Contraste", "Homogeneidad", "Energia", "Correlacion", "Entropia"]
 
 N_PACIENTES_MS = 72    # pacientes de MS según el dataset
